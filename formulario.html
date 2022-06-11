@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+
+</head>
+<body>
+    <form>
+
+    <!--Nombre-->
+    <label for="nombre">Nombre</label>
+    <br>
+    <input type="text" name="Nombre" id="nombre">
+    <!--Primer Apellido-->
+    <br>
+    <label for="primer apellido">Primer Apellido</label>
+    <br>
+    <input type="text" name="primer apellido" id="primer apellido">
+    <!--Segundo Apellido-->
+    <br>
+    <label for="segundo apellido">Segundo Apellido</label>
+    <br>
+    <input type="text" name="segundo apellido" id="segundo apellido">
+    <br>
+    <!--Fecha de naciemiento-->
+    <label for="fecha-naciemiento">Fecha de Nacimiento</label>
+    <br>
+    <input type="date" name="fecha-nacimiento" id="Fecha de Nacimiento">
+    <br><br>
+    <!--Sexo-->
+    <label>Sexo:</label>
+    <br>
+    <label><input name="sexo" id="sexo1" type="radio" value="femenino">Femenino</label>
+    <label><input name="sexo" id="sexo2" type="radio" value="masculino">Masculino</label>
+    <label><input name="sexo" id="sexo3" type="radio" value="prefiero-no-decirlo">Prefiero No Decirlo</label>
+    <br><br>
+    <!--Generos MUsicales-->
+    <label>Generos Musicales:</label>
+    <br>
+    <label><input name="generos-musicales[] id=generos-musicales1" type="checkbox" value="pop">Pop</label>
+    <label><input name="generos-musicales[] id=generos-musicales2" type="checkbox" value="pop">Banda</label>
+    <label><input name="generos-musicales[] id=generos-musicales3" type="checkbox" value="pop">LP</label>
+    <label><input name="generos-musicales[] id=generos-musicales4" type="checkbox" value="pop">Corridos Tumbados</label>
+    <label><input name="generos-musicales[] id=generos-musicales5" type="checkbox" value="pop">Romanticas</label>
+    <label><input name="generos-musicales[] id=generos-musicales6" type="checkbox" value="pop">Rock Nacional</label>
+    <label><input name="generos-musicales[] id=generos-musicales7" type="checkbox" value="pop">Cumbias</label>
+    <label><input name="generos-musicales[] id=generos-musicales8" type="checkbox" value="pop">Electronica</label>
+    <br>
+    <!--Pais-->
+    <label for="pais_id" id>Pais</label>
+    <br>
+    <select name="pais_id" id="pais_id">
+    <option value="">Seleccionar</option>
+    <option value="">Mexico</option>
+    <option value="">España</option>
+    <option value="">Guatemala</option>
+    <option value="">Sinaloa</option>
+    <option value="">Tijuana</option>
+    <option value="">Baja California</option>
+    </select>
+
+    <br>
+</form>
+</body>
+</html>
